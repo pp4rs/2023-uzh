@@ -1,5 +1,5 @@
 site_name: Programming Practices for Research in Economics
-pages:
+nav:
 -  Course Home Page: index.md
 - Announcements: announcements.md
 - Schedule: schedule.md
