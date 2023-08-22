@@ -2,7 +2,7 @@
 
 Important announcements will be posted here to avoid our inboxes getting clogged up.
 
-If you have questions during the course - direct them to us via [Teams](https://teams.microsoft.com/l/channel/19%3a5f6228b0381e4a4cb00c4c3bcae33ef7%40thread.tacv2/General%2520(2022)?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&tenantId=c7e438db-e462-4c22-a90a-c358b16980b3). There's a 'Direct Message' feature so you can contact us individually as needed, but where possible post messages to a channel that all participants can see.
+If you have questions during the course - direct them to us via [Teams](https://teams.microsoft.com/l/channel/19%3a9568a1b5b0eb4c019fd0222030fcb1c7%40thread.tacv2/General%2520(2023)?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&tenantId=c7e438db-e462-4c22-a90a-c358b16980b3). There's a 'Direct Message' feature so you can contact us individually as needed, but where possible post messages to a channel that all participants can see.
 
 <!-- 
 !!! bug "Final Assignment"
@@ -33,36 +33,30 @@ If you have questions during the course - direct them to us via [Teams](https://
         *  Your code must build without errors via Snakemake (unless we find something really weird, then we will reach out to you)
         * The project must be version controlled, with each contributor making commits. One final commit is not enough.
         * Inputs and outputs must be in separate folders. -->
-
-!!! note "Room"
-    *Date Posted: 2022-08-23*
-
-    All sessions will take place in room FRE-D-14 ([Freestrasse 36](https://www.plaene.uzh.ch/FRE/room/FRE-D-14)). Any further room changes will be signalled on Teams and on this page.
-
 !!! note "Welcome Message"
-    *Date Posted: 2022-07-18*
+    *Date Posted: 2023-08-22*
 
     Welcome to the course "Programming Practices for Research in Economics."
 
-    Please take a look around the [course website](https://pp4rs.github.io/2022-uzh) before the course begins. All the latest information about the course contents, schedule and course locations (which may vary day-by day!) are available on these pages.
+    Please take a look around the [course website](https://pp4rs.github.io/2023-uzh) before the course begins. All the latest information about the course contents, schedule and course locations (which may vary day-by day!) are available on these pages.
 
     We particularly draw your attention to the:
 
-    *  **[Installation Guide](https://pp4rs.github.io/installation-guide/)**. These pages walk you through the steps needed to install all the software for the course.
+    *  **[Installation Guide](https://pp4rs.github.io/2023-uzh-installation-guide/)**. These pages walk you through the steps needed to install all the software for the course.
         * We expect you to have completed it before the course begins.
-        * We are offering help to individuals struggling with the steps involved in the installation guide in a 'Help Session' before the course begins: Wednesday, August 24th. Time and location are TBA.
+        * We are offering help to individuals struggling with the steps involved in the installation guide in a 'Help Session' before the course begins on the 24th and 25th of August. Please come to ZUH H 08.
             * We expect you have tried to complete the guide yourself, and we will not be there to do it all for you.
             * The guide is modular in nature - with most steps being independent of those before and after.
     * **[Pre-Course Survey](https://forms.gle/ZrxzytvKrjmE8rFs8)**.
         * Please fill this out before the course begins.
 
-    To avoid clogging up everyone's inboxes with course email, all future important information will be posted on the course's [Announcements page](https://pp4rs.github.io/2022-uzh/announcements) - be sure to check in there regularly. Smaller pieces of information and course chat will take place inside [Teams](https://teams.microsoft.com/l/channel/19%3a5f6228b0381e4a4cb00c4c3bcae33ef7%40thread.tacv2/General%2520(2022)?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&tenantId=c7e438db-e462-4c22-a90a-c358b16980b3). Join the conversation [here](https://teams.microsoft.com/l/channel/19%3a5f6228b0381e4a4cb00c4c3bcae33ef7%40thread.tacv2/General%2520(2022)?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&tenantId=c7e438db-e462-4c22-a90a-c358b16980b3).
+    To avoid clogging up everyone's inboxes with course email, all future important information will be posted on the course's [Announcements page](https://pp4rs.github.io/2023-uzh/announcements) - be sure to check in there regularly. Smaller pieces of information and course chat will take place inside [Teams](https://teams.microsoft.com/l/channel/19%3a9568a1b5b0eb4c019fd0222030fcb1c7%40thread.tacv2/General%2520(2023)?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&tenantId=c7e438db-e462-4c22-a90a-c358b16980b3).
 
-    We look forward to seeing you on the first day of classes on Thursday, August 25th, at 9.30am.
+    We look forward to seeing you on the first day of classes on Monday, August 28th, at 9:00am.
 
     Best,
 
-    Martin and Julius
+    Martin, Julius, Nelson, Frederik
 
 <!-- HERE IS AN EXAMPLE NOTE BOX -->
 <!-- !!! note "YOUR NOTE NAME"

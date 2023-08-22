@@ -5,7 +5,7 @@
 *   Module Maintainer: Martin Stancsics (`@stanmart`)
 *   Course: [Programming Practices for Research in Economics](https://pp4rs.github.io)
 *   Institute: [Department of Economics, University of Zurich](https://econ.uzh.ch)
-*   Current Version: [Fall 2022](https://pp4rs.github.io/2022-uzh)
+*   Current Version: [Fall 2023](https://pp4rs.github.io/2023-uzh)
 
 Alternatively, email us at: pp4rs@econ.uzh.ch
 
@@ -42,7 +42,7 @@ All materials are licensed under a Creative Commons CC-BY-SA license. The licens
 The suggested citation for the course materials is:
 
 ```
-Julius Schäper & Martin Stancsics (2022), Programming Practices for Research in Economics, University of Zurich
+Julius Schäper & Martin Stancsics (2023), Programming Practices for Research in Economics, University of Zurich
 ```
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
