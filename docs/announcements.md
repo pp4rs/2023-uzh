@@ -47,7 +47,7 @@ If you have questions during the course - direct them to us via [Teams](https://
         * We are offering help to individuals struggling with the steps involved in the installation guide in a 'Help Session' before the course begins on the 24th and 25th of August. Please come to ZUH H 08.
             * We expect you have tried to complete the guide yourself, and we will not be there to do it all for you.
             * The guide is modular in nature - with most steps being independent of those before and after.
-    * **[Pre-Course Survey](https://forms.gle/ZrxzytvKrjmE8rFs8)**.
+    * **[Pre-Course Survey](https://forms.gle/YFfLpmREVYpp9Gva6)**.
         * Please fill this out before the course begins.
 
     To avoid clogging up everyone's inboxes with course email, all future important information will be posted on the course's [Announcements page](https://pp4rs.github.io/2023-uzh/announcements) - be sure to check in there regularly. Smaller pieces of information and course chat will take place inside [Teams](https://teams.microsoft.com/l/channel/19%3a9568a1b5b0eb4c019fd0222030fcb1c7%40thread.tacv2/General%2520(2023)?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&tenantId=c7e438db-e462-4c22-a90a-c358b16980b3).

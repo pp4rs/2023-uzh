@@ -23,7 +23,7 @@ Welcome to the course website for Programming Practices for Research in Economic
 
 Please fill out the pre-course survey before the course begins.
 
-[![](https://img.icons8.com/cotton/64/000000/survey.png){: style="width:38px"}](https://forms.gle/ZrxzytvKrjmE8rFs8) [Pre-Course Survey](https://forms.gle/ZrxzytvKrjmE8rFs8)
+[![](https://img.icons8.com/cotton/64/000000/survey.png){: style="width:38px"}](https://forms.gle/YFfLpmREVYpp9Gva6) [Pre-Course Survey](https://forms.gle/YFfLpmREVYpp9Gva6)
 
 ## Software Installation Guide
 
