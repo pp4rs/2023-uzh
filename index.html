@@ -1,0 +1,578 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+        <link rel="next" href="announcements/">
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.3">
+    
+    
+      
+        <title>Programming Practices for Research in Economics</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.0e669242.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#willkommen" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Programming Practices for Research in Economics" class="md-header__button md-logo" aria-label="Programming Practices for Research in Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Programming Practices for Research in Economics
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Course Home Page
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Programming Practices for Research in Economics" class="md-nav__button md-logo" aria-label="Programming Practices for Research in Economics" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Programming Practices for Research in Economics
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Course Home Page
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Course Home Page
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#important-information" class="md-nav__link">
+    Important Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-course-survey" class="md-nav__link">
+    Pre-Course Survey
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-installation-guide" class="md-nav__link">
+    Software Installation Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsoft-teams" class="md-nav__link">
+    Microsoft Teams
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="announcements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Announcements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="schedule/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Schedule
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="material/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Material
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About the Instructors
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="social_rules/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Rules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="conduct/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Code of Conduct
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="acknowledgements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Acknowledgements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#important-information" class="md-nav__link">
+    Important Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pre-course-survey" class="md-nav__link">
+    Pre-Course Survey
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-installation-guide" class="md-nav__link">
+    Software Installation Guide
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#microsoft-teams" class="md-nav__link">
+    Microsoft Teams
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="willkommen">Willkommen</h1>
+<p>Welcome to the course website for Programming Practices for Research in Economics at the University of Zurich in summer 2023.</p>
+<h2 id="important-information">Important Information</h2>
+<p><a href="assets/pp4rs-syllabus.pdf"><img alt="" src="https://cdn-icons-png.flaticon.com/512/3402/3402199.png" style="width:32px" /></a> <a href="assets/pp4rs-syllabus.pdf">Course Syllabus</a></p>
+<p><a href="./announcements"><img alt="" src="https://www.pinclipart.com/picdir/big/416-4168549_svg-icon-free-download-transparent-background-transparent-announcement.png" style="width:32px" /></a> <a href="./announcements">Announcements</a></p>
+<div class="admonition summary">
+<p class="admonition-title">Summary</p>
+<ul>
+<li>Dates: Daily from August 28th until September 8th (excluding weekends)</li>
+<li>Morning Session: 9.00 - 12.30</li>
+<li>Afternoon Session: 13.30 - 17.00</li>
+<li>Location: See <a href="./schedule">Schedule</a></li>
+<li>Contact: pp4rs@econ.uzh.ch</li>
+</ul>
+</div>
+<h2 id="pre-course-survey">Pre-Course Survey</h2>
+<!-- We will post a short survey that we expect participants to complete closer to the course start date. -->
+
+<p>Please fill out the pre-course survey before the course begins.</p>
+<p><a href="https://forms.gle/YFfLpmREVYpp9Gva6"><img alt="" src="https://img.icons8.com/cotton/64/000000/survey.png" style="width:38px" /></a> <a href="https://forms.gle/YFfLpmREVYpp9Gva6">Pre-Course Survey</a></p>
+<h2 id="software-installation-guide">Software Installation Guide</h2>
+<p>You will need to install the necessary software on to your laptop to bring to the class each day so you can code along with us.</p>
+<p><a href="https://pp4rs.github.io/2023-uzh-installation-guide/"><img alt="" src="https://cdn1.iconfinder.com/data/icons/business-administration-21/32/business-28-512.png" style="width:32px" /></a> <a href="https://pp4rs.github.io/2023-uzh-installation-guide/">Installation Manual</a></p>
+<div class="admonition tip">
+<p class="admonition-title">Installation Help</p>
+<p>Please try and install all the software before the course begins.
+If you are struggling we are able to help - but we expect you have tried to work through the guide yourself.</p>
+<p>We will offer an installation help drop in at the following time:</p>
+<ul>
+<li>Day: August 24th and 25th</li>
+<li>Time: 9am-5pm</li>
+<li>Location: ZUH H 08</li>
+</ul>
+</div>
+<h2 id="microsoft-teams">Microsoft Teams</h2>
+<p>Throughout the course we will post useful tidbits of information, and answer questions that are slightly off topic via Microsoft Teams.</p>
+<p><a href="https://teams.microsoft.com/l/channel/19%3a9568a1b5b0eb4c019fd0222030fcb1c7%40thread.tacv2/General%2520(2023)?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&amp;tenantId=c7e438db-e462-4c22-a90a-c358b16980b3"><img alt="" src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg" style="width:32px" /></a> <a href="https://teams.microsoft.com/l/channel/19%3a9568a1b5b0eb4c019fd0222030fcb1c7%40thread.tacv2/General%2520(2023)?groupId=a57eafc0-f04b-4d0e-8013-fb868b027728&amp;tenantId=c7e438db-e462-4c22-a90a-c358b16980b3">Join Our Chat</a></p>
+<ul>
+<li>Log in with your econ.uzh.ch, bf.uzh.ch or uzh.ch email address.</li>
+<li>Join the channel <code>General (2023)</code></li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+    
+  </body>
+</html>
